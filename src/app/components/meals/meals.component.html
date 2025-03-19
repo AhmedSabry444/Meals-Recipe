@@ -16,6 +16,8 @@
             <div class=" pb-4 meal text-center bg-white rounded-xl hover:scale-105 transition-all">
                 <img [src]="m.strMealThumb" alt="" class="mx-auto w-3/4 -translate-y-5 rounded-full hover:scale-105 transition-all  hover:rotate-[360deg] hover:duration-700 transition-all">
                 <h4>{{m.strMeal}}</h4>
+                <i class="fa-solid fa-earth-americas mt-2" style="color: #059669;"><span> {{m.strArea}}</span> </i>
+                <br>
                 <button [routerLink]="['/mealdetails',m.idMeal]" type="button" class="text-white mt-4  bg-emerald-600 font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300  px-8 py-2 rounded-full text-white">View Recipe</button>
             </div>
         }

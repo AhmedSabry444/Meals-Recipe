@@ -9,6 +9,10 @@ h1{
     -webkit-text-fill-color: transparent;
 }
 
+span{
+    font-family: cursive;
+}
+
 h4{
     font-family: cursive;
     font-size: 20px;
